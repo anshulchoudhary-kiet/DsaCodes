@@ -24,8 +24,8 @@ public class Main{
         return maxLength;
     }
     public static void main(String[] args){
-        int[] n1={0,1,0,1,1,1,1};
-        int[] n2={1,1,1,1,1,0,1};
+        int[] n1={0,0,0};
+        int[] n2={1,1,1};
         int n=print(n1,n2);
         System.out.print(n);
     }
